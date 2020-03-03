@@ -5,9 +5,12 @@
 .idea/
 
 # --bert files--
-app_emo/data/eng/*
-app_emo/vocab/eng/*
-app_emo/weights/eng/*
+/app_emo/data/eng/*
+!/app_emo/data/eng/.gitignore
+/app_emo/vocab/eng/*
+!/app_emo/vocab/eng/.gitignore
+/app_emo/weights/eng/*
+!/app_emo/weights/eng/.gitignore
 
 # --juman app--
 jumanapp/
