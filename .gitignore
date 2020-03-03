@@ -1,0 +1,34 @@
+# --local config--
+.DS_Store
+
+# --IDE config--
+.idea/
+
+# --bert files--
+app_emo/data/eng/*
+app_emo/vocab/eng/*
+app_emo/weights/eng/*
+
+# --juman app--
+jumanapp/
+
+# --Django--
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+db.sqlite3
+media
+
+# --venv--
+.Python
+[Bb]in
+[Ii]nclude
+[Ll]ib
+[Ll]ib64
+[Ll]ocal
+[Ss]cripts
+pyvenv.cfg
+.venv
+pip-selfcheck.json
