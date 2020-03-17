@@ -21,6 +21,7 @@ class BertPredictSerializer(serializers.Serializer):
         net.eval()
         # 推論結果の取得
         label = predict_preds(obj['input_text'], net).numpy()[0]
+        label = 'Positive' if label == 1 else 'Negative'
 
         return label
 
