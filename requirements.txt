@@ -10,7 +10,7 @@ Django==3.0.3
 djangorestframework==3.11.0
 idna==2.9
 importlib-metadata==1.5.0
-joblib==0.14.1
+joblib==1.2.0
 mojimoji==0.0.9
 murmurhash==1.0.2
 numpy==1.18.1
